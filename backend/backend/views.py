@@ -10,7 +10,7 @@ def second(request):
     chup=request.POST.get('upper','error')
     chlo=request.POST.get('lower','error')
     cnt=request.POST.get('count','error')
-    punc='''!@#$%^&*()_+=-~`"}'}][{<>?/.,\|£¬'''
+    punc='''!@#$%^&*()_+=-~:;`"}'}][{<>?/.,\|£¬'''
     work=""
     if(rmvp=='on'):
         ret=""
